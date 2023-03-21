@@ -1,6 +1,6 @@
 /* importing google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
 /* setting up the variables */
 :root {
   --primary: #2d60e3;
@@ -20,6 +20,7 @@
   outline: none;
   border: none;
   text-transform: capitalize;
+  /* font-family: 'Fasthand', cursive; */
   font-family: "Nunito", sans-serif;
 }
 *::selection {
@@ -99,8 +100,8 @@ header {
   box-shadow: 0 0.5rem 1rem var(--shadow);
 }
 
-header h3{
-  font-style: italic;
+header h3 a{
+  font-family: 'Fasthand', cursive;
 }
 
 header .logo {

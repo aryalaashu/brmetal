@@ -7,8 +7,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="logobr.jfif" type="image/x-icon">
-    <title>Br Metal Works</title>
+    <title>BR Metal Works</title>
 
     <!-- font owesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -49,8 +50,8 @@
     <!-- home section starts -->
     <section class="home" id="home">
         <div class="content">
-            <h3>Come and grow</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, unde facilis quis amet rem, iste
+            <h3 data-aos="fade-right">Come and grow</h3>
+            <p data-aos="fade-right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, unde facilis quis amet rem, iste
                 asperiores, natus recusandae aperiam rerum harum quia quaerat tempore distinctio.</p>
             <a href="#about" class="btn">See more</a>
         </div>
@@ -90,7 +91,7 @@
 
         <div class="box-container">
 
-            <div class="box">
+            <div class="box" data-aos="fade-left">
                 <img src="cons1.png" alt="">
                 <h3>Iron Strucutre</h3>
 
@@ -99,7 +100,7 @@
                     Our services include the design and construction of metal staircases, balconies, railings, gates, and fences. 
                     We are also equipped to build and install metal structures such as warehouses, workshops, and hangars.</p>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-right">
                 <img src="steelcons.webp" alt="">
                 <h3>Steel Construction</h3>
 
@@ -108,7 +109,7 @@
                     Our services include the design, fabrication, and installation of steel structures such as warehouses, workshops, hangars, and steel buildings for commercial and residential purposes.
                     We also specialize in constructing steel bridges, steel tanks, and other heavy steel structures.</p>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-left">
                 <img src="alumcons.jpg" alt="">
                 <h3>Aluminium Construction</h3>
 
@@ -117,7 +118,7 @@
                     Our services include the construction of aluminum curtain walls, windows, doors, facades, and storefronts. Our also specialize in the installation of aluminum cladding,
                      roofing, and siding, providing long-lasting and durable protection for buildings.</p>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-right">
                 <img src="poly.jfif" alt="">
                 <h3>Polycarbonate and Upvc Strucutre</h3>
 
@@ -126,7 +127,7 @@
                     Our services include the construction of polycarbonate roofs,  Upvc windows, doors, facades, and storefronts. Our also specialize in the installation of Upvc cladding,
                      roofing, and siding, providing long-lasting and durable protection for buildings.</p>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-left">
                 <img src="glass.webp" alt="">
                 <h3>Glass Block Strucutre</h3>
 
@@ -291,6 +292,12 @@
 
     <!-- custom js file link  -->
     <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>     
+         AOS.init({        
+            offset: 200,        
+            duration: 600,      });   
+         </script>
 
 </body>
 
