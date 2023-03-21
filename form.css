@@ -1,0 +1,139 @@
+/* setting up the variables */
+:root {
+    --primary: #f8ce13;
+    --secondary: #424242;
+    --white: #fff;
+    --bg: #f7f7f7;
+    --text: #333;
+    --shadow: #0000001a;
+  }
+  
+  /* global settings */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    font-family: "Nunito", sans-serif;
+  }
+/* contact us */
+.image{
+    width: 100%;
+    height: auto;
+}
+iframe{
+    width: 400px;
+    height: 250px;
+}
+ 
+  .form {
+    width: 100%;
+    max-width: 820px;
+    border: 3px solid rebeccapurple;
+    margin-left: 250px;
+    margin-top: 150px;
+    /* height: 100%; */
+    position: relative;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  form {
+    height: 100%;
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+  }
+  .contact-info {
+    padding: 2.3rem 2.2rem;
+    position: relative;
+  }
+  .information {
+    display: flex;
+    color: var(--secondary);
+    margin: 0.7rem 0;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  
+  .information i {
+    width: 28px;
+    margin-right: 0.7rem;
+  }
+  .information p {
+    text-transform: none;
+  }
+  
+  /* last circle of find us here part */
+
+  
+  .contact-form {
+    background-color: var(--text);
+    position: relative;
+  }
+    /* square in between find us and write to us */
+  .contact-form:before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: var(--text);
+    transform: rotate(45deg);
+    top: 50px;
+    left: -13px;
+  }
+  
+  .input-container {
+      margin: 1.5rem 0;
+    }
+    
+    .input {
+      height: 8vh;
+    width: 100%;
+    outline: none;
+    border: 2px solid #fafafa;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+  }
+  /* send button */
+  .send {
+    padding: 0.6rem 1.3rem;
+    background-color: var(--primary);
+    border: 2px solid var(--white);
+    font-size: 1.95rem;
+    color: var(--text);
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+    
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  }
+  
+  .send:hover {
+    background-color: transparent;
+    color: var(--white);
+  }
+  /* contact us completed */
+
+
+  
