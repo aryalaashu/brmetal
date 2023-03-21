@@ -102,7 +102,9 @@ header {
 
 header h3 a{
   font-family: 'Edu NSW ACT Foundation', cursive;
-/* font-family: 'Fasthand', cursive; */
+
+  /* font-family: 'Fasthand', cursive; */
+
 }
 
 header .logo {
