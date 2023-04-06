@@ -19,7 +19,7 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   /* font-family: 'Fasthand', cursive; */
   font-family: "Nunito", sans-serif;
 }
@@ -101,6 +101,12 @@ header {
 }
 
 header h3 a{
+  font-family: 'Edu NSW ACT Foundation', cursive;
+
+  /* font-family: 'Fasthand', cursive; */
+
+}
+header h3 a h6{
   font-family: 'Edu NSW ACT Foundation', cursive;
 
   /* font-family: 'Fasthand', cursive; */
