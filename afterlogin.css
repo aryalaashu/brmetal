@@ -121,11 +121,12 @@ header .logo {
 header .searchbar{
   /* border: 1px solid var(--primary); */
   border-radius: 10px;
-  width: 25%;
+  width: 20%;
   height: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 50px;
 }
 .searchbar input{
   border-radius: 10px 0 0 10px;
