@@ -121,7 +121,7 @@ header .logo {
 header .searchbar{
   /* border: 1px solid var(--primary); */
   border-radius: 10px;
-  width: 29%;
+  width: 25%;
   height: 5vh;
   display: flex;
   justify-content: center;
