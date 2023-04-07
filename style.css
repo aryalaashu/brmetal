@@ -181,6 +181,8 @@ header .navbar a:hover {
 
 }
 .maincontent{
+  display: flex;
+  flex-wrap: wrap;
   width: 40%;
   /* border: solid green 5px; */
   height: 60vh;
@@ -458,6 +460,12 @@ header .navbar a:hover {
   }
 
   .home .content h3 {
+    padding-top: 3rem;
+  }
+  .home .maincontent h1{
+    padding-top: 3rem;
+  }
+  .home .maincontent h1 p{
     padding-top: 3rem;
   }
   .gallery .image {
