@@ -12,9 +12,10 @@
     <title>BR Metal Works</title>
 
     <!-- font owesome link -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer" />  
 
     <!-- liniking css -->
     <link rel="stylesheet" href="style.css">
@@ -52,6 +53,25 @@
     </header>
 
     <!-- header section ends -->
+
+<!-- swiper starts -->
+    <div class="container">
+        <div class="maincontent">
+            <h1 >
+            <p style="margin-left: 90px;">Welcome To</p>B.R Metal Con.Pvt.Ltd.
+            </h1>
+            <p style="font-size: 20px; margin-left: 10px; margin-top: 10px; color: #3c280D;">Falam ko kaam grauna parey phone gar natra ja afnai ghar</p>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="glass.webp" alt="image/"></div>
+            <div class="swiper-slide"><img src="./1.jpg" alt="image/"></div>
+
+      
+          </div>
+        </div>
+      </div>
+      <!-- swiper ends -->
 
     <!-- home section starts -->
     <section class="home" id="home">
@@ -224,6 +244,45 @@
             </div>
         </div>
     </section>
+
+
+
+
+    <section id="teams">
+        <h1 data-aos="fade-down">BR Metal Management Team</h1>
+        <div class="all-futsal">
+            <div class="indiviudal-futsal" data-aos="fade-right">
+                <img src="staf2.jpg" alt="">
+                <h2> Subash Bhujel<br>
+                <h3 style="text-align: center; font-size:2rem;">CEO</h2>
+            </div>
+            <div class="indiviudal-futsal" data-aos="fade-down">
+                <img src="staf3.jpg" alt="">
+                <h2> Subash Timilsina<br>
+                <h3 style="text-align: center; font-size:2rem;"> Chief Marketing Officer</h2>
+            </div>
+            <div class="indiviudal-futsal" data-aos="fade-left">
+                <img src="staf5.jpg" alt="">
+                <h2> Sagar Pandey<br>
+                <h3 style="text-align: center; font-size:2rem;">Marketing Manager</h2>
+            </div>
+            <div class="indiviudal-futsal" data-aos="fade-right">
+                <img src="staf4.jpg" alt="">
+                <h2>Udur Timilsina<br>
+                <h3 style="text-align: center; font-size:2rem;">Sales Manager</h2>
+            </div>
+            <div class="indiviudal-futsal" data-aos="fade-down">
+                <img src="staf1.jpg" alt="">
+                <h2> Sagar Pandey<br>
+                <h3 style="text-align: center; font-size:2rem;">HR & Admin Manager</h2>
+            </div>
+            <div class="indiviudal-futsal" data-aos="fade-left">
+                <img src="staf1.jpg" alt="">
+                <h2> Sagar Pandey<br>
+                <h3 style="text-align: center; font-size:2rem;">Vacant</h2>
+            </div>
+        </div>
+    </section>
     <!-- management team upto here -->
 
         <!-- team part -->
@@ -298,6 +357,28 @@
             offset: 50, 
             duration: 600,});
          </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+    autoplay:{
+      delay: 3000,
+      disableOnInteraction: false
+    },
+    loop: true,
+
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+
+    // navigation: {
+    //     nextEl: '.swiper-button-next',
+    //     prevEl: '.swiper-button-prev',
+    // },
+
+  });
+</script>     
 
 </body>
 
