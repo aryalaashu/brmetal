@@ -100,8 +100,8 @@ body{
   display: inline-block;
   margin-top: 12px;
 }
-.right-side .button input[type="button"]{
-  color: #fff;
+.right-side .button button{
+  /* color: #fff; */
   font-size: 18px;
   outline: none;
   border: none;
@@ -111,7 +111,7 @@ body{
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.button input[type="button"]:hover{
+.button:hover{
   background: #0ebde9;
 }
 
