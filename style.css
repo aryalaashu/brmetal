@@ -187,6 +187,7 @@ header .navbar a:hover {
   margin-top: 130px;
 }
 .maincontent h1{
+  margin-left: 20px;
   margin-top: 80px;
   font-size: 5rem;
   color: #3c280D;
@@ -242,16 +243,18 @@ header .navbar a:hover {
 }
 
 .home .image {
+  margin-top: 90px;
   flex: 1 1 40rem;
+  /* border: solid red 5px; */
 }
 
 .home .image img {
   width: 100%;
   padding: 1rem;
-  /* animation: float 3s linear infinite; */
+  animation: float 3s linear infinite;
 }
 /* floating image direction */
-/* @keyframes float {
+ @keyframes float {
   0%,
   100% {
     transform: translateX(0rem);
@@ -259,7 +262,7 @@ header .navbar a:hover {
   50% {
     transform: translateX(3rem);
   }
-} */
+} 
 
 .home .content h3 {
   font-size: 5rem;
